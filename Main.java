@@ -14,7 +14,11 @@ public class Main {
 		
 		int opc = 1;
 		int cont = 0;
-
+		
+		System.out.println();
+		System.out.print("Deseja iniciar a pesquisa? [1-Sim/0-Nao] :  ");
+		opc = sc.nextInt();
+		System.out.println("----------------------------------------");
 		while (opc == 1) {
 			
 			System.out.print("Informe a classe do animal [vertebrado / invertebrado] : ");
